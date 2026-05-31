@@ -1,0 +1,69 @@
+# PHP & Laravel
+/vendor
+.env
+.env.*
+*.log
+*.sqlite
+*.sqlite3
+
+# Composer
+composer.phar
+composer.lock
+
+# NPM & Node
+/node_modules
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Laravel specific
+storage/*.key
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*.log
+bootstrap/cache/*.php
+
+# Testing
+.phpunit.cache
+.coverage
+.cache
+
+# Debug
+/.debug
+
+# Temporary files
+*.tmp
+*.temp
+
+# Uploads
+/public/storage
+/storage/app/public
+
+# Zip files
+*.zip
+*.rar
+
+# SQL dump (مهم جداً لملف SQL حقك)
+*.sql
+*.sql.gz
+
+# Laravel Sail
+/.sail
+
+# Environment files
+.env.backup
+.env.production
+.env.local
