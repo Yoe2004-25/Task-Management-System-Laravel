@@ -58,7 +58,7 @@ return new class extends Migration
      */
     public function down(): void
     {
-         Schema::dropIfExists('task_logs');  // حذف جدول السجل أولاً
+         Schema::dropIfExists('task_logs');  
         Schema::dropIfExists('tasks');
     }
 };
